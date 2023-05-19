@@ -98,7 +98,7 @@ else :
 print()
 
 # Valores na loteria ########################################
-'''
+
 loteria = [5, 11, 9, 42, 3, 49]
 numEscolhidos = [3, 7, 11, 42, 34, 49]
 numAcertos = ["Número:", 0, "índice:", 0]
@@ -107,16 +107,13 @@ listEscolhidos = []
 
 for i in range(len(loteria)):
     if numEscolhidos[i] == loteria[i]:
-        numAcertos[1] = numEscolhidos[i] 
-        print(numEscolhidos[i])
+        numEsc = int(numEscolhidos[i]) 
+        numAcertos[1] = numEsc
         numAcertos[3] = i
-        listEscolhidos = 
-        print(i)
-        listAcertos.append(numAcertos)
-        print(numAcertos)
-        print(listAcertos)
+        listAcertos.append(numAcertos[:])
+print("Valores acertados: ")
 print(listAcertos)
-'''     
+   
 
 
 
